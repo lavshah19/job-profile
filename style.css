@@ -11,7 +11,7 @@ body{
     min-height: 100vh;
     background-color: #6B86DD;
     display: flex;
-   gap: 100px;
+   gap: 150px;
 }
 .searching-card{
 
@@ -343,6 +343,11 @@ button{
 }
 .col2{
     background-color: #E1F4B2;
+}
+@media only screen and (max-width: 1454px){
+    body{
+       gap: 100px;
+    }
 }
 @media only screen and (max-width: 1305px){
     body{
